@@ -11,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i, a, b, m = 1;
+	int i, a, b, m;
 
 	if (argc != 3)
 	{
@@ -20,7 +20,6 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-
 		a = atoi(argv[1]);
 		b = atoi(argv[2]);
 		m = a * b;
