@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	int i, m = 1;
 
-	if (argc < 3)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
@@ -21,10 +21,9 @@ int main(int argc, char *argv[])
 	else
 	{
 
-		for (i = 1; i < argc; i++)
-		{
-			m *= atoi(argv[i]);
-		}
+		a = atoi(argv[1]);
+		b = atoi(argv[2]);
+		m = a * b;
 		printf("%d\n", m);
 		return (m);
 	}
