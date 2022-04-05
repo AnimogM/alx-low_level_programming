@@ -16,20 +16,14 @@ char *str_concat(char *s1, char *s2)
 	char *cpy;
 
 	if (s1 == NULL)
-		len1 = 0;
-	else
-	{
-		for (i = 0; s1[i]; i++)
-			len1++;
-	}
+		s1 = "";
+	for (i = 0; s1[i]; i++)
+		len1++;
 
 	if (s2 == NULL)
-		len2 = 0;
-	else
-	{
-		for (i = 0; s2[i]; i++)
-			len2++;
-	}
+		s2 = "";
+	for (i = 0; s2[i]; i++)
+		len2++;
 
 	cpy = malloc((len1 + len2 + 1) * sizeof(char));
 	if (cpy == NULL)
