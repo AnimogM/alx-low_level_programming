@@ -31,6 +31,6 @@ char *argstostr(int ac, char **av)
 	{
 		for (j = 0; j < av[i][j]; j++)
 			arr[index++] = av[i][j];
-		arr[indexx++] = '\n';
+		arr[index++] = '\n';
 	}
 	return (arr);
