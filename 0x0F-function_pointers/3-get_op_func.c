@@ -1,6 +1,5 @@
 #include "3-calc.h"
 #include <stdio.h>
-#include <string.h>
 
 /**
  * get_op_func - returns a pointer to the function that corresponds to the
@@ -22,11 +21,8 @@ int (*get_op_func(char *s))(int, int)
 	};
 	int i;
 
-	while (ops[i].op != NULL)
-	{
-		if (strcmp(ops[i].op, s) == 0)
-			break;
+	while (ops[i].op != NULL && *(ops[i].op) != *s)
 		i++;
-	}
+
 	return (ops[i].f);
 }
