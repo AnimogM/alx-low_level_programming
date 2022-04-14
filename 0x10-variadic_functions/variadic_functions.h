@@ -13,11 +13,6 @@ typedef struct print
 	void (*f)(va_list);
 } print_t;
 
-/**
- * @string: string
- */
-typedef char *string;
-
 int _putchar(char);
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
