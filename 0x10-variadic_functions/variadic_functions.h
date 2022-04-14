@@ -14,10 +14,9 @@ typedef struct print
 } print_t;
 
 /**
- * struct char - string data type
  * @string: string
  */
-typedef struct char *string;
+typedef char *string;
 
 int _putchar(char);
 int sum_them_all(const unsigned int n, ...);
