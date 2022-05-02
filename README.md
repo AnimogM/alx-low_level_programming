@@ -1,6 +1,5 @@
 # Low Level Programming & Algorithms
-
-<img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/212/cisfun.jpg" width="500">
+![image](https://user-images.githubusercontent.com/80972735/166182009-4f96265e-cd47-4774-a139-b6101933561b.png)
 
 ## Welcome
 Thank you for visiting my programming projects. The majority of the code was written in C, with a few files written in Assembly.
@@ -9,7 +8,6 @@ Thank you for visiting my programming projects. The majority of the code was wri
 * [About](#about)
 * [Requirements](#requirements)
 * [Projects](#projects)
-* [Credits](#credits)
 
 ## About
 This repository contains projects on the C programming language. The projects cover:
@@ -63,7 +61,3 @@ This repository contains projects on the C programming language. The projects co
 28. [0x1B-makefiles](./0x1B-makefiles)
 29. [0x1C-binary_trees](./0x1C-binary_trees)
 30. [0x1D-search_algorithms](./0x1D-search_algorithms) ** Search algorithms project ** -->
-
-## Credits
-Work is owned and maintained by Gomina Maryam ([@animogm](https://twitter.com/gominaMaryam)). 
-<!-- Credits for group projects are displayed in the respective README.md files. -->
