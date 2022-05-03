@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -14,11 +14,11 @@ int main(int ac, char **av)
 
 	if (ac != 2)
 	{
-		dprint(2, "Usage: %s filename\n", av[0]);
+		dprintf(2, "Usage: %s filename\n", av[0]);
 		exit(1);
 	}
 	n = read_textfile(av[1], 114);
-	prinf("\n(printed chars: %li)\n", n);
+	printf("\n(printed chars: %li)\n", n);
 	n = read_textfile(av[1], 1024);
 	printf("\n(printed chars: %li)\n", n);
 	return (0);
